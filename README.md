@@ -1,18 +1,64 @@
-# React + Vite
+## GROUP 7 REACT INFORMATION SYSTEM ASSIGNMENT
+## React Information System
+- A modern React-based Information System that demonstrates core React concepts including components, routing, state management, API fetching, form handling, and dynamic UI updates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+- This application allows users to:
+ - Fetch users from a public API
+ - View users on a dedicated page
+ - View individual user details
+ - Add new users through a form (frontend only)
+ - Delete users (UI only)
+ - Navigate between pages using React Router
+- The system is built using React functional components with hooks (useState, useEffect) and React Router for navigation.
 
-Currently, two official plugins are available:
+## Technologies used
+- React (Functional Components)
+- React Router DOM
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Public API: JSONPlaceholder
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Project Structure
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── Footer.jsx
+ │    ├── Layout.jsx
+ │    ├── UserCard.jsx
+ │    ├── Button.jsx
+ │    └── Input.jsx
+ │
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── Users.jsx
+ │    ├── AddUser.jsx
+ │    ├── UserDetails.jsx
+ │    └── About.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+ ## Public API Used
+ - The project fetches data from: https://jsonplaceholder.typicode.com/users
+- This API provides fake user data for testing and learning purposes.
 
-Note: This will impact Vite dev & build performances.
+## Installation & Setup
+1. Clone the repository:
+    ## git clone git@github.com:D-bengo/react-info-system.git
 
-## Expanding the ESLint configuration
+2. Navigate into the project
+ - cd react-info-system
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies
+ - npm install
+
+4. Start development server
+- npm run dev
+
+   
+
+     
+    
